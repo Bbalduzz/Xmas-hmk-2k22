@@ -147,13 +147,11 @@ var c = new ExpandableCard(document.querySelector("#profile-2"));
 var c = new ExpandableCard(document.querySelector("#profile-3"));
 var c = new ExpandableCard(document.querySelector("#profile-4"));
 var c = new ExpandableCard(document.querySelector("#profile-5"));
-// document.querySelectorAll(".mock-content").forEach((c) => {
-//   const lines = Math.floor(Math.random() * 6) + 2;
-//   for (var i = 0; i < lines; i++) {
-//     const w = Math.random() * 2 + 3;
-//     const el = document.createElement("div");
-//     el.className = "mock-content-line";
-//     el.style.width = `${w * 20}%`;
-//     c.appendChild(el);
-//   }
-// });
+
+// alert
+$(".close").click(function() {
+  $(this)
+    .parent(".alert")
+    .fadeOut();
+});
+
