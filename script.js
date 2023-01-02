@@ -147,7 +147,7 @@ var c = new ExpandableCard(document.querySelector("#profile-2"));
 var c = new ExpandableCard(document.querySelector("#profile-3"));
 var c = new ExpandableCard(document.querySelector("#profile-4"));
 var c = new ExpandableCard(document.querySelector("#profile-5"));
-
+var c = new ExpandableCard(document.querySelector("#profile-6"));
 // alert
 $(".close").click(function() {
   $(this)
